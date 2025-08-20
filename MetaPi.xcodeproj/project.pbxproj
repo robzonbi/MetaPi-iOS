@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA67E70B2E1F79F90093D9CA /* Mantis in Frameworks */ = {isa = PBXBuildFile; productRef = FA67E70A2E1F79F90093D9CA /* Mantis */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA0C344E2E07A007004FAEF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA0C34382E07A006004FAEF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA0C343F2E07A006004FAEF2;
+			remoteInfo = MetaPi;
+		};
+		FA0C34582E07A007004FAEF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA0C34382E07A006004FAEF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA0C343F2E07A006004FAEF2;
+			remoteInfo = MetaPi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA0C34402E07A006004FAEF2 /* MetaPi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetaPi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0C344D2E07A007004FAEF2 /* MetaPiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetaPiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0C34572E07A007004FAEF2 /* MetaPiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetaPiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		FA0C348E2E08B407004FAEF2 /* Exceptions for "MetaPi" folder in "MetaPi" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = FA0C343F2E07A006004FAEF2 /* MetaPi */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FA0C34422E07A006004FAEF2 /* MetaPi */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FA0C348E2E08B407004FAEF2 /* Exceptions for "MetaPi" folder in "MetaPi" target */,
+			);
+			path = MetaPi;
+			sourceTree = "<group>";
+		};
+		FA0C34502E07A007004FAEF2 /* MetaPiTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MetaPiTests;
+			sourceTree = "<group>";
+		};
+		FA0C345A2E07A007004FAEF2 /* MetaPiUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MetaPiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA0C343D2E07A006004FAEF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA67E70B2E1F79F90093D9CA /* Mantis in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0C344A2E07A007004FAEF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0C34542E07A007004FAEF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A33623212E3CABAA00BF3554 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA0C34372E07A006004FAEF2 = {
+			isa = PBXGroup;
+			children = (
+				FA0C34422E07A006004FAEF2 /* MetaPi */,
+				FA0C34502E07A007004FAEF2 /* MetaPiTests */,
+				FA0C345A2E07A007004FAEF2 /* MetaPiUITests */,
+				A33623212E3CABAA00BF3554 /* Frameworks */,
+				FA0C34412E07A006004FAEF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA0C34412E07A006004FAEF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA0C34402E07A006004FAEF2 /* MetaPi.app */,
+				FA0C344D2E07A007004FAEF2 /* MetaPiTests.xctest */,
+				FA0C34572E07A007004FAEF2 /* MetaPiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA0C343F2E07A006004FAEF2 /* MetaPi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0C34612E07A007004FAEF2 /* Build configuration list for PBXNativeTarget "MetaPi" */;
+			buildPhases = (
+				FA0C343C2E07A006004FAEF2 /* Sources */,
+				FA0C343D2E07A006004FAEF2 /* Frameworks */,
+				FA0C343E2E07A006004FAEF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FA0C34422E07A006004FAEF2 /* MetaPi */,
+			);
+			name = MetaPi;
+			packageProductDependencies = (
+				FA67E70A2E1F79F90093D9CA /* Mantis */,
+			);
+			productName = MetaPi;
+			productReference = FA0C34402E07A006004FAEF2 /* MetaPi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA0C344C2E07A007004FAEF2 /* MetaPiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0C34642E07A007004FAEF2 /* Build configuration list for PBXNativeTarget "MetaPiTests" */;
+			buildPhases = (
+				FA0C34492E07A007004FAEF2 /* Sources */,
+				FA0C344A2E07A007004FAEF2 /* Frameworks */,
+				FA0C344B2E07A007004FAEF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA0C344F2E07A007004FAEF2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FA0C34502E07A007004FAEF2 /* MetaPiTests */,
+			);
+			name = MetaPiTests;
+			packageProductDependencies = (
+			);
+			productName = MetaPiTests;
+			productReference = FA0C344D2E07A007004FAEF2 /* MetaPiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA0C34562E07A007004FAEF2 /* MetaPiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0C34672E07A007004FAEF2 /* Build configuration list for PBXNativeTarget "MetaPiUITests" */;
+			buildPhases = (
+				FA0C34532E07A007004FAEF2 /* Sources */,
+				FA0C34542E07A007004FAEF2 /* Frameworks */,
+				FA0C34552E07A007004FAEF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA0C34592E07A007004FAEF2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FA0C345A2E07A007004FAEF2 /* MetaPiUITests */,
+			);
+			name = MetaPiUITests;
+			packageProductDependencies = (
+			);
+			productName = MetaPiUITests;
+			productReference = FA0C34572E07A007004FAEF2 /* MetaPiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA0C34382E07A006004FAEF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					FA0C343F2E07A006004FAEF2 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					FA0C344C2E07A007004FAEF2 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = FA0C343F2E07A006004FAEF2;
+					};
+					FA0C34562E07A007004FAEF2 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = FA0C343F2E07A006004FAEF2;
+					};
+				};
+			};
+			buildConfigurationList = FA0C343B2E07A006004FAEF2 /* Build configuration list for PBXProject "MetaPi" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA0C34372E07A006004FAEF2;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				FA67E7092E1F79F90093D9CA /* XCRemoteSwiftPackageReference "Mantis" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FA0C34412E07A006004FAEF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA0C343F2E07A006004FAEF2 /* MetaPi */,
+				FA0C344C2E07A007004FAEF2 /* MetaPiTests */,
+				FA0C34562E07A007004FAEF2 /* MetaPiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA0C343E2E07A006004FAEF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0C344B2E07A007004FAEF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0C34552E07A007004FAEF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA0C343C2E07A006004FAEF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0C34492E07A007004FAEF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0C34532E07A007004FAEF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA0C344F2E07A007004FAEF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA0C343F2E07A006004FAEF2 /* MetaPi */;
+			targetProxy = FA0C344E2E07A007004FAEF2 /* PBXContainerItemProxy */;
+		};
+		FA0C34592E07A007004FAEF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA0C343F2E07A006004FAEF2 /* MetaPi */;
+			targetProxy = FA0C34582E07A007004FAEF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA0C345F2E07A007004FAEF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = TE487R478V;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA0C34602E07A007004FAEF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = TE487R478V;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA0C34622E07A007004FAEF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TE487R478V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MetaPi/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need access to save photos to your gallery.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to select photos from your gallery.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.technolab.MetaPi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA0C34632E07A007004FAEF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TE487R478V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MetaPi/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need access to save photos to your gallery.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to select photos from your gallery.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.technolab.MetaPi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA0C34652E07A007004FAEF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TE487R478V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.technolab.MetaPiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetaPi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MetaPi";
+			};
+			name = Debug;
+		};
+		FA0C34662E07A007004FAEF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TE487R478V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.technolab.MetaPiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetaPi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MetaPi";
+			};
+			name = Release;
+		};
+		FA0C34682E07A007004FAEF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TE487R478V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.technolab.MetaPiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MetaPi;
+			};
+			name = Debug;
+		};
+		FA0C34692E07A007004FAEF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TE487R478V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.technolab.MetaPiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MetaPi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA0C343B2E07A006004FAEF2 /* Build configuration list for PBXProject "MetaPi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0C345F2E07A007004FAEF2 /* Debug */,
+				FA0C34602E07A007004FAEF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0C34612E07A007004FAEF2 /* Build configuration list for PBXNativeTarget "MetaPi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0C34622E07A007004FAEF2 /* Debug */,
+				FA0C34632E07A007004FAEF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0C34642E07A007004FAEF2 /* Build configuration list for PBXNativeTarget "MetaPiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0C34652E07A007004FAEF2 /* Debug */,
+				FA0C34662E07A007004FAEF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0C34672E07A007004FAEF2 /* Build configuration list for PBXNativeTarget "MetaPiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0C34682E07A007004FAEF2 /* Debug */,
+				FA0C34692E07A007004FAEF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA67E7092E1F79F90093D9CA /* XCRemoteSwiftPackageReference "Mantis" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/guoyingtao/Mantis";
+			requirement = {
+				kind = exactVersion;
+				version = 2.26.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA67E70A2E1F79F90093D9CA /* Mantis */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA67E7092E1F79F90093D9CA /* XCRemoteSwiftPackageReference "Mantis" */;
+			productName = Mantis;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FA0C34382E07A006004FAEF2 /* Project object */;
+}
